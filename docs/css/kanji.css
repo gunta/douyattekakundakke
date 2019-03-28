@@ -1,0 +1,47 @@
+* {
+  /* So 100% means 100% */
+  box-sizing: border-box;
+}
+
+html, body {
+  /* Make the body to be as tall as browser window */
+  height: 100%;
+  background: #ccc;
+  /*padding: 20px;*/
+}
+
+body {
+  /*padding: 20px;*/
+  background: white;
+}
+
+#bigText {
+
+
+  text-align: center;
+
+  width: 100%;
+  /*height: 500px;*/
+  /*height: calc(100% - 3em);*/
+  height: 100%;
+  /*line-height: 100%;*/
+
+  /*border: 1px solid red;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#bigText[type="text"] {
+  font-family: "游明朝体", "YuMincho", "游明朝", "Yu Mincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN W3", HiraMinProN-W3, "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", serif !important;
+
+}
+
+#bigText[type="text"] {
+  color: rgba(0, 0, 0, 0.1);
+  text-shadow: 0 0 0 rgba(0, 0, 0, 1);
+}
+
+#bigText[type="text"]:focus {
+  outline: none;
+}
